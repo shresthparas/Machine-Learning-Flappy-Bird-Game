@@ -2,15 +2,6 @@
 
 Here is the source code for a HTML5 project that implements a machine learning algorithm in the Flappy Bird video game using neural networks and a genetic algorithm. The program teaches a little bird how to flap optimally in order to fly safely through barriers as long as possible.
 
-The complete tutorial with much more details and demo you can find here:  
-[http://www.askforgametask.com/tutorial/machine-learning-algorithm-flappy-bird](http://www.askforgametask.com/tutorial/machine-learning-algorithm-flappy-bird)
-
-Here you can also watch a short video with a simple presentation of the algorithm:  
-[https://www.youtube.com/watch?v=aeWmdojEJf0](https://www.youtube.com/watch?v=aeWmdojEJf0)
-
-All code is written in HTML5 using [Phaser framework](http://phaser.io/) and [Synaptic Neural Network library](https://synaptic.juancazala.com) for neural network implementation.
-
-![Flappy Bird Screenshot](https://raw.githubusercontent.com/ssusnic/Machine-Learning-Flappy-Bird/master/screenshots/flappy_10.png "Flappy Bird Screenshot")
 
 ## Neural Network Architecture
 
@@ -29,7 +20,6 @@ To play the game, each unit (bird) has its own neural network consisted of the n
     if output > 0.5 then flap else do nothing
      ```
      
-![Flappy Bird Neural Network](https://raw.githubusercontent.com/ssusnic/Machine-Learning-Flappy-Bird/master/screenshots/flappy_06.png "Flappy Bird Neural Network")
 
 
 There is used [Synaptic Neural Network library](https://synaptic.juancazala.com) to implement entire artificial neural network instead of making a new one from the scratch.
