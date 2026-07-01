@@ -36,7 +36,6 @@ The main concept of machine learning implemented in this program is based on the
     fitness = total travelled distance - distance to the closest gap
     ```
  
-    ![Flappy Bird Fitness](https://raw.githubusercontent.com/ssusnic/Machine-Learning-Flappy-Bird/master/screenshots/flappy_08.png "Flappy Bird Fitness")
 
     
 4. when all units are killed, evaluate the current population to the next one using **genetic algorithm operators** (selection, crossover and mutation) as follows:
